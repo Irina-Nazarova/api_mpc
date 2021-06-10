@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: api_mpc_postgres
+    #restart: always
+    image: postgres:11
+    ports:
+    - 54321:5432
+    volumes:
+    - ./data/pg:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=api_mpc
+      - POSTGRES_PASSWORD=api_mpc_pwd
+      - POSTGRES_DB=api_mpc_db
