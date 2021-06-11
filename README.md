@@ -10,7 +10,7 @@ API Service for representation information from DB: MongoDB, Postgres, ClickHous
 
 **Users/Auth**
 - [x] Users: Endpoints, Models, Repositories, DB
-- [ ] JWT Auth
+- [x] JWT Auth
 - [ ] Tests
 - [ ] Logs 
 
